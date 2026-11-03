@@ -179,3 +179,88 @@ OER Commons：保留渠道，待继续发现
 
 保持 RESEARCH_ONLY。
 不修改 go-dev v2。
+
+## 六、Rust 学习路径与 OWASP 维护策略修订
+
+核实日期：2026-11-03
+
+### 6.1 Rust 应作为完整学习体系研究
+
+此前发现 Rustonomicon，仅代表找到一个符合
+初步授权条件的内容源，不代表优先选择高级教程。
+
+正式研究对象调整为：
+
+Rust Official Learning & Documentation
+
+需要覆盖的学习层次：
+
+1. 入门：The Rust Programming Language
+2. 基础实践：Rust By Example、Rustlings
+3. 进阶：Cargo Book、Rust Reference
+4. 高级：Rustonomicon
+
+主要来源：
+https://rust-lang.org/documentation
+https://github.com/rust-lang/book
+https://github.com/rust-lang/rust-by-example
+https://github.com/rust-lang/rustlings
+https://github.com/rust-lang/nomicon
+
+现有社区译本不能直接作为淘汰理由。
+
+需要按具体语言、文档模块、翻译范围、
+质量和更新状态评估有效覆盖。
+
+不同仓库的许可证及第三方素材需要分别核实。
+
+Rustlings 的交互练习具有额外工程成本，
+不得将其视为普通静态文档翻译。
+
+### 6.2 OWASP 官方权威性属于潜在优势
+
+OWASP Cheat Sheet Series 具有官方权威性、
+可获取的 Markdown 内容及明确的 CC BY-SA 4.0 许可。
+
+如果目标语言缺少高质量完整译本，
+独立多语言站点可能提供实际用户价值。
+
+但不得假定独立站点自动继承官方搜索排名、
+外部链接或品牌授权。
+
+官方资料：
+https://owasp.org/projects/cheat-sheet-series
+https://github.com/OWASP/CheatSheetSeries
+
+### 6.3 OWASP 更新策略
+
+建议的初步维护机制：
+
+- 每月：轻量检查上游变更。
+- 每季度或半年：处理普通内容更新。
+- 重大安全修正：发现后优先处理。
+- 每半年：完成一次系统范围复核。
+
+这是研究建议，不是官方更新承诺。
+
+后续需要实际核实：
+- 原始文档的更新频率。
+- 每次变更涉及的文章比例。
+- 安全修正的紧急程度。
+- 66 门语言的翻译与审核成本。
+- 上游多语言覆盖情况。
+- 用户需求和广告商业可行性。
+
+维护成本、流量与广告收益仍为 UNKNOWN。
+
+### 6.4 阶段结论
+
+Rust 从单一高级教材候选，
+提升为完整官方学习体系研究对象。
+
+OWASP 保留为重点技术文档候选，
+不能因持续更新需求而直接淘汰。
+
+这不是正式立项或开发授权。
+
+研究状态继续保持 RESEARCH_ONLY。
