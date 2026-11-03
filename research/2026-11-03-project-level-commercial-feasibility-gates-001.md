@@ -280,3 +280,44 @@ SHOPIFY_MODULE_LICENSE_SCOPE_SCREENING
 继续保持RESEARCH_ONLY。
 
 go-dev v2仍然是当前主项目。
+
+## 九、Shopify授权翻译与官方链接混合策略修订
+
+修订日期：2026-11-03
+
+此前针对Shopify整套官方文档的
+统一授权前置门槛，
+现调整为具体内容来源的授权门槛。
+
+正式策略：
+LICENSED_TRANSLATION_PLUS_OFFICIAL_LINKS
+
+明确获得商业翻译授权的内容，
+可以纳入本站翻译候选范围。
+
+未取得授权的内容，
+直接链接Shopify官方页面，
+不翻译、不复制、不独立托管。
+
+不再要求通过原创教程
+补齐全部学习环节。
+
+完整Shopify开发者学习体系
+仍然是研究范围。
+
+完整官网文档的转载授权：
+UNCLEAR。
+
+这不阻止继续研究
+合法授权内容子集的商业可行性。
+
+但不能因为官方未明确禁止，
+就默认允许翻译。
+
+详细决策记录：
+research/2026-11-03-shopify-licensed-translation-official-links-decision-001.md
+
+下一阶段：
+SHOPIFY_LICENSED_VS_EXTERNAL_MODULE_COVERAGE
+
+项目状态继续RESEARCH_ONLY。
