@@ -1,0 +1,470 @@
+{
+  "schema": "mpr/cross-domain-demand-proxy/v1",
+  "verified_at": "2026-11-03",
+  "source": "Wikimedia Analytics API",
+  "project": "de.wikipedia.org",
+  "access": "all-access",
+  "agent": "user",
+  "period": "2025-11 to 2026-10",
+  "measurement": "article_pageviews",
+  "not_google_search_volume": true,
+  "not_germany_only": true,
+  "records": [
+    {
+      "category": "编程语言",
+      "topic": "Python",
+      "article": "Python_(Programmiersprache)",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Python_(Programmiersprache)/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 12134
+        },
+        {
+          "month": "202512",
+          "views": 10803
+        },
+        {
+          "month": "202601",
+          "views": 11512
+        },
+        {
+          "month": "202602",
+          "views": 10929
+        },
+        {
+          "month": "202603",
+          "views": 11396
+        },
+        {
+          "month": "202604",
+          "views": 9785
+        },
+        {
+          "month": "202605",
+          "views": 9291
+        },
+        {
+          "month": "202606",
+          "views": 9445
+        },
+        {
+          "month": "202607",
+          "views": 7631
+        },
+        {
+          "month": "202608",
+          "views": 9696
+        },
+        {
+          "month": "202609",
+          "views": 9652
+        },
+        {
+          "month": "202610",
+          "views": 10155
+        }
+      ],
+      "total_views": 122429
+    },
+    {
+      "category": "编程语言",
+      "topic": "Rust",
+      "article": "Rust_(Programmiersprache)",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Rust_(Programmiersprache)/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 6441
+        },
+        {
+          "month": "202512",
+          "views": 12866
+        },
+        {
+          "month": "202601",
+          "views": 6857
+        },
+        {
+          "month": "202602",
+          "views": 5589
+        },
+        {
+          "month": "202603",
+          "views": 5745
+        },
+        {
+          "month": "202604",
+          "views": 6159
+        },
+        {
+          "month": "202605",
+          "views": 5347
+        },
+        {
+          "month": "202606",
+          "views": 4432
+        },
+        {
+          "month": "202607",
+          "views": 4161
+        },
+        {
+          "month": "202608",
+          "views": 4670
+        },
+        {
+          "month": "202609",
+          "views": 6062
+        },
+        {
+          "month": "202610",
+          "views": 12873
+        }
+      ],
+      "total_views": 81202
+    },
+    {
+      "category": "AI知识",
+      "topic": "人工智能",
+      "article": "Künstliche_Intelligenz",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/K%C3%BCnstliche_Intelligenz/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 33145
+        },
+        {
+          "month": "202512",
+          "views": 27588
+        },
+        {
+          "month": "202601",
+          "views": 33925
+        },
+        {
+          "month": "202602",
+          "views": 32685
+        },
+        {
+          "month": "202603",
+          "views": 32033
+        },
+        {
+          "month": "202604",
+          "views": 29333
+        },
+        {
+          "month": "202605",
+          "views": 32254
+        },
+        {
+          "month": "202606",
+          "views": 31465
+        },
+        {
+          "month": "202607",
+          "views": 27350
+        },
+        {
+          "month": "202608",
+          "views": 27653
+        },
+        {
+          "month": "202609",
+          "views": 51595
+        },
+        {
+          "month": "202610",
+          "views": 47794
+        }
+      ],
+      "total_views": 406820
+    },
+    {
+      "category": "应用安全",
+      "topic": "信息安全",
+      "article": "Informationssicherheit",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Informationssicherheit/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 2813
+        },
+        {
+          "month": "202512",
+          "views": 2328
+        },
+        {
+          "month": "202601",
+          "views": 2714
+        },
+        {
+          "month": "202602",
+          "views": 2375
+        },
+        {
+          "month": "202603",
+          "views": 2382
+        },
+        {
+          "month": "202604",
+          "views": 2101
+        },
+        {
+          "month": "202605",
+          "views": 1957
+        },
+        {
+          "month": "202606",
+          "views": 2004
+        },
+        {
+          "month": "202607",
+          "views": 1861
+        },
+        {
+          "month": "202608",
+          "views": 1798
+        },
+        {
+          "month": "202609",
+          "views": 2043
+        },
+        {
+          "month": "202610",
+          "views": 1992
+        }
+      ],
+      "total_views": 26368
+    },
+    {
+      "category": "区块链",
+      "topic": "Ethereum",
+      "article": "Ethereum",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Ethereum/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 5573
+        },
+        {
+          "month": "202512",
+          "views": 4884
+        },
+        {
+          "month": "202601",
+          "views": 6064
+        },
+        {
+          "month": "202602",
+          "views": 5131
+        },
+        {
+          "month": "202603",
+          "views": 3168
+        },
+        {
+          "month": "202604",
+          "views": 3122
+        },
+        {
+          "month": "202605",
+          "views": 2663
+        },
+        {
+          "month": "202606",
+          "views": 2916
+        },
+        {
+          "month": "202607",
+          "views": 2094
+        },
+        {
+          "month": "202608",
+          "views": 2007
+        },
+        {
+          "month": "202609",
+          "views": 1848
+        },
+        {
+          "month": "202610",
+          "views": 1950
+        }
+      ],
+      "total_views": 41420
+    },
+    {
+      "category": "商业开发",
+      "topic": "Shopify",
+      "article": "Shopify",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Shopify/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 3010
+        },
+        {
+          "month": "202512",
+          "views": 3387
+        },
+        {
+          "month": "202601",
+          "views": 3570
+        },
+        {
+          "month": "202602",
+          "views": 3347
+        },
+        {
+          "month": "202603",
+          "views": 2846
+        },
+        {
+          "month": "202604",
+          "views": 3187
+        },
+        {
+          "month": "202605",
+          "views": 3068
+        },
+        {
+          "month": "202606",
+          "views": 2352
+        },
+        {
+          "month": "202607",
+          "views": 2622
+        },
+        {
+          "month": "202608",
+          "views": 2555
+        },
+        {
+          "month": "202609",
+          "views": 2758
+        },
+        {
+          "month": "202610",
+          "views": 2894
+        }
+      ],
+      "total_views": 35596
+    },
+    {
+      "category": "世界历史",
+      "topic": "世界历史",
+      "article": "Weltgeschichte",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Weltgeschichte/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 796
+        },
+        {
+          "month": "202512",
+          "views": 608
+        },
+        {
+          "month": "202601",
+          "views": 738
+        },
+        {
+          "month": "202602",
+          "views": 661
+        },
+        {
+          "month": "202603",
+          "views": 536
+        },
+        {
+          "month": "202604",
+          "views": 660
+        },
+        {
+          "month": "202605",
+          "views": 580
+        },
+        {
+          "month": "202606",
+          "views": 658
+        },
+        {
+          "month": "202607",
+          "views": 589
+        },
+        {
+          "month": "202608",
+          "views": 688
+        },
+        {
+          "month": "202609",
+          "views": 683
+        },
+        {
+          "month": "202610",
+          "views": 729
+        }
+      ],
+      "total_views": 7926
+    },
+    {
+      "category": "地理知识",
+      "topic": "地理学",
+      "article": "Geographie",
+      "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia.org/all-access/user/Geographie/monthly/2025110100/2026103100",
+      "months": [
+        {
+          "month": "202511",
+          "views": 3357
+        },
+        {
+          "month": "202512",
+          "views": 2960
+        },
+        {
+          "month": "202601",
+          "views": 3335
+        },
+        {
+          "month": "202602",
+          "views": 2777
+        },
+        {
+          "month": "202603",
+          "views": 3081
+        },
+        {
+          "month": "202604",
+          "views": 2859
+        },
+        {
+          "month": "202605",
+          "views": 2890
+        },
+        {
+          "month": "202606",
+          "views": 2802
+        },
+        {
+          "month": "202607",
+          "views": 2317
+        },
+        {
+          "month": "202608",
+          "views": 3412
+        },
+        {
+          "month": "202609",
+          "views": 4238
+        },
+        {
+          "month": "202610",
+          "views": 3119
+        }
+      ],
+      "total_views": 37147
+    }
+  ]
+}
