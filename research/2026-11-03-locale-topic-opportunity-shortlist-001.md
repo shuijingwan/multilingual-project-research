@@ -88,32 +88,114 @@ https://oerrepository.ntt.edu.vn/handle/298300331/703
 
 没有足够需求则暂缓完整翻译。
 
-## 四、候选C：Shopify Liquid参考
+## 四、候选C：Shopify开发者学习与文档体系
 
-目标：id-ID
+正式研究对象：
+Shopify Developer Learning & Documentation
 
-限定内容源：
+目标范围：冻结的全部66个locale。
+
+原先单独选择id-ID研究Liquid，
+仅是历史调查样本，
+不能代表完整项目的商业可行性。
+
+### 4.1 学习与文档模块
+
+根据Shopify官方开发文档导航，
+初步范围包括：
+
+1. Apps：入门、应用开发与扩展。
+2. Storefronts：Themes、Liquid、
+   Headless、Hydrogen等。
+3. APIs：Admin API、Storefront API、
+   各类扩展及相关开发参考。
+4. Tools：Shopify CLI、
+   SDK、开发环境及实践指南。
+5. Agents：Agent开发与相关工具。
+
+官方入口：
+https://shopify.dev/docs
+
+API资料：
+https://shopify.dev/docs/api
+
+Liquid参考：
+https://shopify.dev/docs/api/liquid
+
+上述是研究模块概况，
+不是已确认的完整页面清单。
+
+默认研究对象为开发者学习资料，
+不自动扩展到Shopify商家帮助中心。
+
+### 4.2 已核实的内容源
+
+Shopify Theme Liquid Docs：
 https://github.com/Shopify/theme-liquid-docs
 
 该仓库采用MIT许可证。
 
-商业使用许可仅适用于
-实际获得许可的仓库内容。
-
-不得推导整个shopify.dev
-均可商业转载或翻译。
-
-已有源文件清点：
+已有内容结构调查：
 research/2026-11-03-shopify-liquid-inventory.md
 
-目标语言搜索需求：UNKNOWN。
-有效本地化参考覆盖：UNKNOWN。
-官方文档竞争：需要深入调查。
-持续维护成本：UNKNOWN。
+这些证据仅覆盖该仓库，
+不代表shopify.dev所有文档
+均采用MIT许可证。
 
-下一步：
-验证印尼开发者的Liquid参考查询需求。
-若需求不明显，暂缓。
+### 4.3 商业授权边界
+
+整体开发文档的商业翻译、
+改编和独立再分发授权：UNCLEAR。
+
+不同模块、仓库、代码示例、
+媒体素材及网站条款须分别核查。
+
+Shopify服务条款：
+https://www.shopify.com/legal/terms
+
+Shopify API许可条款：
+https://www.shopify.com/legal/api-terms
+
+上述条款不能被当作
+整个开发文档商业翻译许可。
+
+需要单独核查商标使用限制。
+
+在授权查明之前，
+不启动官方文档整站翻译。
+
+如只有部分模块明确可商业复用，
+需要重新评估剩余合法内容
+能否形成完整而有价值的学习体系。
+
+可以研究原创教学内容路线，
+但不得用原创之名复制受保护的文档。
+
+### 4.4 商业与工程评估
+
+66-locale有效覆盖：UNKNOWN。
+自然搜索需求：UNKNOWN。
+独立站可获取流量：UNKNOWN。
+Page RPM：UNKNOWN。
+长期广告净收益：UNKNOWN。
+
+官方竞争及版本更新压力
+需要进一步调查。
+
+应预先梳理完整学习体系，
+避免先只做Liquid，
+后续再临时迁移成员范围。
+
+但完整范围调查不等于
+承诺翻译全部文档。
+
+下一阶段：
+SHOPIFY_DEVELOPER_DOCS_LICENSE_GATE
+
+优先核查各模块的实际授权，
+再决定是否值得进一步投入
+66-locale商业机会调查。
+
 
 ## 五、候选D：Rust完整学习路径
 

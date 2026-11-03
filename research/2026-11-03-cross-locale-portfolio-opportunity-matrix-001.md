@@ -25,7 +25,7 @@ UNKNOWN不表示需求为零，也不表示市场空白。
 
 ## 二、66-locale覆盖矩阵
 
-| Rank | locale | Google Ads | GEO | HIS | LIQ | RST |
+| Rank | locale | Google Ads | GEO | HIS | SHP | RST |
 | ---: | --- | --- | :---: | :---: | :---: | :---: |
 | 1 | en-US | YES | ? | E | E | E |
 | 2 | zh-CN | YES | ? | ? | ? | D |
@@ -100,7 +100,7 @@ UNKNOWN不表示需求为零，也不表示市场空白。
 | --- | ---: | ---: | ---: | ---: | ---: |
 | 国家、首都及地理练习工具 | 4 | 0 | 0 | 0 | 62 |
 | 世界历史与国际关系知识 | 3 | 0 | 1 | 7 | 55 |
-| Shopify Liquid 参考资料 | 0 | 0 | 0 | 7 | 59 |
+| Shopify 开发者学习与文档体系 | 0 | 0 | 0 | 7 | 59 |
 | Rust 完整学习体系 | 2 | 4 | 0 | 7 | 53 |
 
 这些数字只统计已记录证据的分布，
@@ -154,13 +154,40 @@ https://www.openbookpublishers.com/books/10.11647/obp.0074
 World History Encyclopedia仅是竞争证据，
 不是允许商业批量翻译的内容来源。
 
-### LIQ
+### SHP
 
-仅Shopify/theme-liquid-docs仓库的
-MIT授权范围已有证据。
-不得扩展解释为整个shopify.dev。
+候选对象为完整Shopify开发者
+学习与文档体系，而非单独Liquid。
+
+初步模块：
+
+- Apps
+- Storefronts（Themes、Liquid、Headless）
+- APIs
+- CLI、SDK及开发实践
+- Agents
+
+https://shopify.dev/docs
+https://shopify.dev/docs/api
+
+目前只有Shopify/theme-liquid-docs
+等具体来源的MIT授权得到核实。
 
 https://github.com/Shopify/theme-liquid-docs
+
+其余开发文档的商业翻译、
+修改与独立再分发授权：
+UNCLEAR。
+
+不能将仓库许可证延伸到整个官网。
+
+完整内容范围、66-locale有效覆盖、
+自然搜索需求及长期维护成本：
+UNKNOWN。
+
+具体范围修订记录见：
+research/2026-11-03-locale-topic-opportunity-shortlist-001.md
+
 
 ### RST
 
@@ -176,7 +203,7 @@ https://github.com/rust-lang/book
 | --- | --- | --- |
 | GEO | 开放数据许可明确；少量市场有竞争者 | 全球差异化及可获取流量UNKNOWN |
 | HIS | 有CC BY 4.0正文来源；历史内容可长期使用 | 独立站流量、图片授权及主题需求UNKNOWN |
-| LIQ | 指定源仓库MIT；资料结构已清点 | 跨语言开发者搜索需求及竞争优势UNKNOWN |
+| SHP | 完整开发者学习体系；仅部分仓库MIT授权已核实 | 其余模块商业授权UNCLEAR；66-locale需求与维护成本UNKNOWN |
 | RST | 官方学习源和部分社区翻译存在 | 实际有效缺口、官方替代风险UNKNOWN |
 
 四个项目均未证明存在足以支持建站的
