@@ -340,3 +340,35 @@ go-dev v2仍是当前主项目。
 
 第二个正式项目：
 NOT_DECIDED。
+
+## 十、GEO候选状态后续修订
+
+修订日期：2026-11-04
+
+GEO_STATUS=PARKED
+
+此状态覆盖本报告此前
+GEO=RESEARCH_CONTINUE的阶段判断。
+
+原因：
+
+基础地理测验、多语言练习、
+国家数据比较已有成熟竞争。
+
+虽然发现部分行政区划测验
+存在数据更新滞后，
+但尚未证明具备可持续商业价值的
+整体差异化机会。
+
+保留全部历史证据。
+不删除GEO候选。
+不预先确定项目开发顺序。
+
+详细证据：
+research/2026-11-04-geo-specific-user-value-gap-check-001.md
+
+下一研究阶段：
+HIS_LICENSED_CORPUS_SCOPE_GATE
+
+其他候选状态保持不变。
+正式新项目仍为NOT_DECIDED。
