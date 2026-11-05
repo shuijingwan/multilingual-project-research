@@ -1,0 +1,47 @@
+{
+  "collected_at": "2026-11-05T06:08:49.106221+00:00",
+  "repository": "OWASP/CheatSheetSeries",
+  "since": "2025-11-05T00:00:00Z",
+  "until": "2026-11-05T23:59:59Z",
+  "topics": [
+    {
+      "title": "SQL Injection Prevention",
+      "path": "cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md",
+      "source_url": "https://raw.githubusercontent.com/OWASP/CheatSheetSeries/master/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.md",
+      "source_sha256": "5597b04e2a6f280e1b33a3a01c1f01884fa04fd9679168e2606fab22b6a6058b",
+      "source_bytes": 9956,
+      "commit_count_12m": 10,
+      "latest_commit_date": "2026-10-24T14:17:20Z",
+      "latest_commit_sha": "c95960c5f06f19de69dfbcd7412821e3a0639945",
+      "history_url": "https://api.github.com/repos/OWASP/CheatSheetSeries/commits?path=cheatsheets%2FSQL_Injection_Prevention_Cheat_Sheet.md&since=2025-11-05T00%3A00%3A00Z&until=2026-11-05T23%3A59%3A59Z&per_page=100",
+      "translation_coverage": "UNKNOWN",
+      "search_volume": "UNKNOWN"
+    },
+    {
+      "title": "Cross Site Scripting Prevention",
+      "path": "cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md",
+      "source_url": "https://raw.githubusercontent.com/OWASP/CheatSheetSeries/master/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.md",
+      "source_sha256": "e4bbeced6010bb9029061910e97f01f4391cb8b89d1a0f31a390ca5a00a5e9a8",
+      "source_bytes": 31821,
+      "commit_count_12m": 10,
+      "latest_commit_date": "2026-11-01T12:54:35Z",
+      "latest_commit_sha": "3b93fa9b20ff78b65b0627266c22c5ef72c4dfaa",
+      "history_url": "https://api.github.com/repos/OWASP/CheatSheetSeries/commits?path=cheatsheets%2FCross_Site_Scripting_Prevention_Cheat_Sheet.md&since=2025-11-05T00%3A00%3A00Z&until=2026-11-05T23%3A59%3A59Z&per_page=100",
+      "translation_coverage": "UNKNOWN",
+      "search_volume": "UNKNOWN"
+    },
+    {
+      "title": "Authentication",
+      "path": "cheatsheets/Authentication_Cheat_Sheet.md",
+      "source_url": "https://raw.githubusercontent.com/OWASP/CheatSheetSeries/master/cheatsheets/Authentication_Cheat_Sheet.md",
+      "source_sha256": "92f7483b28548679917a329c7b9be1824f33e934d9eed670aaf3e9a1e7b37e83",
+      "source_bytes": 41242,
+      "commit_count_12m": 17,
+      "latest_commit_date": "2026-10-04T20:07:59Z",
+      "latest_commit_sha": "684d6d9d9f1a0c680ad30219f46ae4e2debf9440",
+      "history_url": "https://api.github.com/repos/OWASP/CheatSheetSeries/commits?path=cheatsheets%2FAuthentication_Cheat_Sheet.md&since=2025-11-05T00%3A00%3A00Z&until=2026-11-05T23%3A59%3A59Z&per_page=100",
+      "translation_coverage": "UNKNOWN",
+      "search_volume": "UNKNOWN"
+    }
+  ]
+}
