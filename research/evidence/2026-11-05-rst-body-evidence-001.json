@@ -1,0 +1,244 @@
+{
+  "collected_at_utc": "2026-11-05T01:38:39.242914+00:00",
+  "korean": [
+    {
+      "module": "book",
+      "url": "https://raw.githubusercontent.com/rust-lang-translations/translations/master/translations/book/ko.po",
+      "source_sha256": "29ccc6bdf3785eb8e7ab64f3316719f09e1ef1a413b45dbb589d842df2c7d7f1",
+      "valid": 5036,
+      "translated": 5020,
+      "malformed": 6,
+      "fuzzy": 0,
+      "malformed_sample_hashes": [
+        "bfb3f775c8b18fec20e729a23b848309e02fe190c347582e8f11a308b3d2d619",
+        "d848e4a25fa66787bfad17cfaefd32339db30f996c6743c765e40e78964cb130",
+        "ea74a8894c198e65a9a4bb5fae72b9432f637b6edb8525d9d832b467d79e3d34",
+        "546ce98c4bf7d9220cbabf0f0d19a16fd71d0b6c095f742653bc6a12fab0ff17",
+        "a23fb09059dcb23f167b328aa95223c82f317bdca64648f730e8a213a406446b"
+      ],
+      "body_candidate_count": 2931,
+      "body_samples": [
+        {
+          "original_sha256": "f259ba1af1bb4082726946ebb4c664fe38191c47b9652d5db2f3528deca86720",
+          "translation_sha256": "cb7fcfb6bf321ae5a87d1e606986007793e603ceb2c817e9e1b9b7825a583d7e",
+          "original_length": 95,
+          "translation_length": 59
+        },
+        {
+          "original_sha256": "bf05b28ea686d81f5b0b732768e4cd367d8f99e9c8105d844191e20320bf1022",
+          "translation_sha256": "e883565b497b7c897056c6c7bff0e2657da078b603ce849788d7f2efa01330d4",
+          "original_length": 358,
+          "translation_length": 203
+        },
+        {
+          "original_sha256": "2f61e2cc3bfdb13f617f625b021bdbf28ddd8be0e3eab524b94d2c09838b2e4e",
+          "translation_sha256": "710a352434b5c662e97bed1ed95e6488ba77308229d3bd1e48a99a63d1f13425",
+          "original_length": 395,
+          "translation_length": 210
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    },
+    {
+      "module": "cargo",
+      "url": "https://raw.githubusercontent.com/rust-lang-translations/translations/master/translations/cargo/ko.po",
+      "source_sha256": "6d360b354c43f4383a1148379eaea4956767f8f5709f2b910a01b0fe63447011",
+      "valid": 7140,
+      "translated": 7140,
+      "malformed": 2,
+      "fuzzy": 0,
+      "malformed_sample_hashes": [
+        "b4d48610e032872037ab05f9868e0f861ca1ea044fb5d26867d858afd5a9c361",
+        "8d5cd3b5c3a778b6078d9009cbde03d1e9cb3d167ce799024c2dc8ec5c01b374"
+      ],
+      "body_candidate_count": 4179,
+      "body_samples": [
+        {
+          "original_sha256": "dcdf2d7699b5df4d6253d3ea015c6f0fdab7227c4aa4881afa111a296306cd02",
+          "translation_sha256": "8c90e21be9f0efd9921738b98fb54f9ce802a112533a2f1d67561eaeb3215a9a",
+          "original_length": 143,
+          "translation_length": 113
+        },
+        {
+          "original_sha256": "b1085479fa6442eed31e888e11262a9b2d7d3e696dea6b56f80b0bf5a655ebff",
+          "translation_sha256": "b40a7d16650fdce8115b9729b05fa8aa59957e1700afd3b92254b8b2399fd166",
+          "original_length": 181,
+          "translation_length": 100
+        },
+        {
+          "original_sha256": "2319fcd7d4db57173b1bbde1eea62f2a464a5f0f699a8a96b8571fc541dc7971",
+          "translation_sha256": "92717501ee3e90eee5617e0de997b9eef973a3595c2ce476d162c3f1abaf1d11",
+          "original_length": 299,
+          "translation_length": 221
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    },
+    {
+      "module": "reference",
+      "url": "https://raw.githubusercontent.com/rust-lang-translations/translations/master/translations/reference/ko.po",
+      "source_sha256": "f44bfe8e47a3510965e1e808c40511f33c03a70a7d4880d7b4eb109f73b771a8",
+      "valid": 6780,
+      "translated": 6779,
+      "malformed": 0,
+      "fuzzy": 0,
+      "malformed_sample_hashes": [],
+      "body_candidate_count": 2793,
+      "body_samples": [
+        {
+          "original_sha256": "88e69c3b79cee09941fc4769dcf6c6f9a2b2b59b4393199b0ce7019731742359",
+          "translation_sha256": "ad4e5c0355db79316cd41bc916a4e0ddd4e22eaa75739097de9774a938d01081",
+          "original_length": 106,
+          "translation_length": 56
+        },
+        {
+          "original_sha256": "3fc3a599e13611a59bee40a488cc5652502d981b9ec564c58a1c82d587e1beca",
+          "translation_sha256": "fcde630043895ab10927b38c326e346b2b565ab825958ecc367e74f4cd189f6d",
+          "original_length": 124,
+          "translation_length": 99
+        },
+        {
+          "original_sha256": "c91684bf6e3eb0f5f2f57b193cd707f2ec060b668bd5f7eaacd993179fd8b425",
+          "translation_sha256": "b0f2f8e3561125d3f1a17cbb71bd6f5a2a0044f4ffea1601f86c8e2e3b5bdb88",
+          "original_length": 339,
+          "translation_length": 195
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    },
+    {
+      "module": "nomicon",
+      "url": "https://raw.githubusercontent.com/rust-lang-translations/translations/master/translations/nomicon/ko.po",
+      "source_sha256": "5d89809abbc6387e09b3f995b7048989dbd109d5b943c9dfd8847b942d39963a",
+      "valid": 1422,
+      "translated": 1422,
+      "malformed": 3,
+      "fuzzy": 0,
+      "malformed_sample_hashes": [
+        "1c7805143ffdd7e09527cb2472ab6cd898f881c13fd2d5883dd1984b6f57719a",
+        "1d085ea53c6e4025a8d82f1d02d58bc817932dde499fae3670e3655d20d6ed4d",
+        "edb9b68c564cbcd7afb7d4d7a8b91ee8d123aa8a5b7db1fe358eec6ffc4e5968"
+      ],
+      "body_candidate_count": 769,
+      "body_samples": [
+        {
+          "original_sha256": "b1dd0d748588537a477a61bcf793063f9ad312a9520215a4d5a3b67fd2ac2c39",
+          "translation_sha256": "d956f04cdf75eda0939377f406993beb466a70d83f7c887e71b248a90062b954",
+          "original_length": 306,
+          "translation_length": 179
+        },
+        {
+          "original_sha256": "dde719474cf6e8c9fdcb435d078c3fafbefcbcfc54edd032ffe9fd74e58ed24c",
+          "translation_sha256": "5bb9d5e792e795fbf0292892cdc185213e87cda263be72500ce976d4d0f6d541",
+          "original_length": 243,
+          "translation_length": 172
+        },
+        {
+          "original_sha256": "d7ddf5f307b90b4000968176dccca453d1d7d7f693ab44240e9b23aad91be91b",
+          "translation_sha256": "6f0d5856b9a5be22e40d9a93be50ede09c48f79ae0c40c35594dd55bf906d60d",
+          "original_length": 85,
+          "translation_length": 66
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    }
+  ],
+  "rustlings": [
+    {
+      "locale": "zh-CN",
+      "repository": "https://github.com/SandmeyerX/rustlings-zh-cn",
+      "branch": "main",
+      "tree_sha": "1acafcb4b71b54f3b477d01dd8c076aced73db95",
+      "exercise_files": 95,
+      "official_current_files": 95,
+      "matching_paths": 95,
+      "missing_current_paths": [],
+      "additional_paths": [],
+      "samples": [
+        {
+          "path": "exercises/00_intro/intro1.rs",
+          "url": "https://raw.githubusercontent.com/SandmeyerX/rustlings-zh-cn/main/exercises/00_intro/intro1.rs",
+          "sha256": "d7a7757b20d82031e90b0944724012989260f988d5a8f484bb78a664421cda50",
+          "target_language_characters": 214
+        },
+        {
+          "path": "exercises/12_options/options3.rs",
+          "url": "https://raw.githubusercontent.com/SandmeyerX/rustlings-zh-cn/main/exercises/12_options/options3.rs",
+          "sha256": "e8c335710c20f03218139fa282eb08f2a2a641e027320c0bae171fd0054f81f4",
+          "target_language_characters": 30
+        },
+        {
+          "path": "exercises/quizzes/quiz3.rs",
+          "url": "https://raw.githubusercontent.com/SandmeyerX/rustlings-zh-cn/main/exercises/quizzes/quiz3.rs",
+          "sha256": "c4c75de2504562208b3ce435e856049758b3b140cd3a9feabd0bde5b47d08c21",
+          "target_language_characters": 214
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    },
+    {
+      "locale": "ja-JP",
+      "repository": "https://github.com/sotanengel/rustlings-jp",
+      "branch": "main",
+      "tree_sha": "23dc494b14c8ed39d53858d3fd299f0364db26bc",
+      "exercise_files": 94,
+      "official_current_files": 95,
+      "matching_paths": 85,
+      "missing_current_paths": [
+        "exercises/19_smart_pointers/smart_pointers1.rs",
+        "exercises/19_smart_pointers/smart_pointers2.rs",
+        "exercises/19_smart_pointers/smart_pointers3.rs",
+        "exercises/19_smart_pointers/smart_pointers4.rs",
+        "exercises/23_conversions/conversions1.rs",
+        "exercises/23_conversions/conversions2.rs",
+        "exercises/23_conversions/conversions3.rs",
+        "exercises/23_conversions/conversions4.rs",
+        "exercises/23_conversions/conversions5.rs",
+        "exercises/24_async/async1.rs"
+      ],
+      "additional_paths": [
+        "exercises/19_smart_pointers/arc1.rs",
+        "exercises/19_smart_pointers/box1.rs",
+        "exercises/19_smart_pointers/cow1.rs",
+        "exercises/19_smart_pointers/rc1.rs",
+        "exercises/23_conversions/as_ref_mut.rs",
+        "exercises/23_conversions/from_into.rs",
+        "exercises/23_conversions/from_str.rs",
+        "exercises/23_conversions/try_from_into.rs",
+        "exercises/23_conversions/using_as.rs"
+      ],
+      "samples": [
+        {
+          "path": "exercises/00_intro/intro1.rs",
+          "url": "https://raw.githubusercontent.com/sotanengel/rustlings-jp/main/exercises/00_intro/intro1.rs",
+          "sha256": "7086df62f7f587ac912375d9629eb04bf80d1626cf75bcd5e225030d7c02ea6e",
+          "target_language_characters": 391
+        },
+        {
+          "path": "exercises/12_options/options3.rs",
+          "url": "https://raw.githubusercontent.com/sotanengel/rustlings-jp/main/exercises/12_options/options3.rs",
+          "sha256": "8da995978f62dc402fbbc88d783d72ab0df9572a2f1afe1ac5b82e4ae36cf89a",
+          "target_language_characters": 43
+        },
+        {
+          "path": "exercises/quizzes/quiz3.rs",
+          "url": "https://raw.githubusercontent.com/sotanengel/rustlings-jp/main/exercises/quizzes/quiz3.rs",
+          "sha256": "a4c4389bcd8cfefb51eb4ab488599aa965467408273f0941bb35ff2e16dd8768",
+          "target_language_characters": 195
+        }
+      ],
+      "full_completeness": "UNKNOWN",
+      "version_sync": "UNKNOWN"
+    }
+  ],
+  "official_rustlings": {
+    "branch": "main",
+    "tree_sha": "f7b9b3c5882a1a43275130b95142d94f847526f5",
+    "exercise_files": 95
+  }
+}
