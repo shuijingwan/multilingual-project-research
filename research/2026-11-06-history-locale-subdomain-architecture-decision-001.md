@@ -70,3 +70,21 @@
 `NEXT=SECOND_PROJECT_OWNER_SELECTION_DECISION`
 
 本记录只是可复用架构约束，不将历史候选误写为正式立项。
+
+## 六、后续负责人正式选择与域名 locale 纠正（2026-11-06）
+
+**本节为后续正式负责人决策；与上文示例或状态冲突时，以本节为准。**
+
+权威决策：`research/2026-11-06-second-project-world-history-owner-selection-001.md`。
+
+- `SECOND_PROJECT=WORLD_HISTORY`，`FORMAL_PROJECT_SELECTED=YES`：世界历史已由项目负责人正式选定，不再是尚未决定的备选。
+- 域名locale前缀必须与Go正式生产映射**完全一致**；不是把完整locale码转成小写后直接拼到`-history`。
+- 来源为`shuijingwan/go-tour-i18n/production/identity.json`中65个已发布`production_hostname`；只在域名中把`go-dev`标签替换成`history`。
+- 因此：`zh-CN`由`go-dev.shuijingwanwq.com`对应`history.shuijingwanwq.com`，**不是**前文仅作假设的`zh-cn-history.shuijingwanwq.com`。
+- `de-DE`由`de-go-dev.shuijingwanwq.com`对应`de-history.shuijingwanwq.com`，**不是**`de-de-history.shuijingwanwq.com`。
+- `de-AT`对应`de-at-history.shuijingwanwq.com`；`es-419`对应`es-419-history.shuijingwanwq.com`。
+- `en-US`是跨项目第66个目标而不是Go现有生产locale，不能臆造其Go正式hostname；历史教材原文是英语，具体英文地区是否需另建站点留在实施前的内容覆盖决策。
+- 三本教材继续**共用同一locale历史域名**，通过路径区分。
+- 本次仅研究和决策：`RESEARCH_ONLY=YES`，`PROJECT_LAUNCH_AUTHORIZED=NO`，`DNS_MUTATION=NONE`，不修改go-dev。
+
+`NEXT=HIS_SOURCE_AND_MEDIA_LICENSED_SCOPE_FREEZE_RESEARCH`
