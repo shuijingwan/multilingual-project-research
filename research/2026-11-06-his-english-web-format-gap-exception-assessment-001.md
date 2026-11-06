@@ -106,3 +106,18 @@ Google官方明确：搜索能索引PDF和HTML。PDF无法像普通章节HTML那
 `NEXT=HIS_ENGLISH_FORMAT_GAP_OWNER_POLICY_DECISION`
 
 本报告提出建议，但不代替负责人确认是否接受“官方已有语言但未提供合格网页正文时，可以为该特定书/locale建立英文网页版”的例外。即便同意规则，本阶段仍只研究，不启动建站或翻译。
+
+## 后续负责人正式决策（2026-11-06）：此节覆盖早期建议
+
+本报告当时把“不同英语地区可不单独建设”视为建议；**项目负责人之后明确否定了这个自动合并原则**，并正式批准官方只有PDF且缺少合格HTML时允许建设对应语言网页版。
+
+当前唯一权威记录：`research/2026-11-06-his-english-regional-variants-and-web-gap-owner-decision-001.md`。
+
+- `OFFICIAL_PDF_NO_HTML_WEB_EXCEPTION=APPROVED`。
+- `ALL_TARGET_ENGLISH_REGIONAL_VARIANTS=IN_SCOPE`。
+- 目标英语地区：`en-US`以及Go正式生产中的`en-GB,en-CA,en-AU,en-IN,en-SG,en-ZA`共7种；不因为已有一种英语原文就直接跳过其余地区。
+- 按**具体原书**识别原文英语变体；HIS-A/HIS-B已由出版方与拼写证据支持`en-US`；HIS-C虽由英国出版社出版，但其原文美式/英式须以官方XML正文核验后冻结，现`UNKNOWN`，不应仅凭英国出版社身份判断。
+- 原始语言已有合格官方HTML时原则上优先链接；原始语言只有PDF则可以制作原文HTML而不称其为同语翻译；其他英语地区按独立locale进行本地化翻译与质量审核。
+- 只确认研究/覆盖政策，尚未授权建站、正式翻译、部署或新增DNS，`RESEARCH_ONLY=YES`。
+
+`NEXT=HIS_C_OFFICIAL_XML_SOURCE_ENGLISH_VARIANT_LEXICAL_GATE`
