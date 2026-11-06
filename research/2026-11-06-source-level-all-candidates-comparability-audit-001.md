@@ -142,3 +142,25 @@ AI方向另有 Dive into Deep Learning、Google ML Crash Course、Google ML Glos
 `NEXT=SOURCE_OWNER_OFFICIAL_SUPPORT_BOUNDARY_PILOT`
 
 不启动翻译，不创建/部署网站，不购买域名，不改go-dev v2。
+
+## 后续正式修正：合法内容子集优先于整站授权（2026-11-06）
+
+本节为较晚的用户指示修订，涉及 Shopify、Ethereum、DeepSeek 的商业授权解释时**以本节为准**。请参见：
+`research/2026-11-06-licensed-content-subset-commercial-project-gate-001.md`。
+
+原来把“整套官网文档没有取得明确授权”当成**该整个候选暂不能比较商业价值**的做法过于严格。项目早已采用：
+
+`LICENSED_TRANSLATION_PLUS_OFFICIAL_LINKS`
+
+即：**只翻译具体且明确允许商业翻译、独立再分发的内容；其他内容直接链接官方，不要求获得整套官网文档许可，也不要求原创教材补齐。**
+
+所以 Shopify、Ethereum、DeepSeek 都可以针对合法内容白名单，继续比较其内容体量、学习体系完整性、同源重复、目标语言增量、更新成本、搜索需求和可变现页面价值。
+
+这是**立项范围选择**与**单个内容文件的合法性**分开判断。已有许可证不自动覆盖未审计的文件、素材、网站访问条款或整个API文档；`UNCLEAR` 文件仍不得进入本站翻译白名单。但无需先消除官网所有未授权内容的问题才评价整个候选。
+
+同时保持：社区已有译本**不**排除该语言；只是影响整个项目的重复投入和增量价值。
+
+`WHOLE_SITE_LICENSE_REQUIRED=NO`
+`LICENSED_SUBSET_VIABILITY_MUST_BE_EVALUATED=YES`
+`COMMUNITY_TRANSLATION_EXCLUDES_LOCALE=NO`
+`NEXT=LICENSED_SUBSET_VALUE_SIDE_BY_SIDE_REVIEW`
