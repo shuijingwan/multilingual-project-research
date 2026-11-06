@@ -1,5 +1,7 @@
 # 世界历史候选项目：延续 go-dev 的每语言子域名架构
 
+> **后续正式决策覆盖旧示例（2026-11-06）**：负责人已将历史项目域名标识从 `history` 确定为 `world-history`。本文件前文的 `*-history` 例子均为历史记录，**不可用于新建DNS或生成域名**。当前有效规则参见本文件第七节及 `research/2026-11-06-second-project-world-history-owner-selection-001.md`。
+
 日期：2026-11-06
 阶段：HIS_LOCALE_SUBDOMAIN_ARCHITECTURE_DECISION
 项目状态：RESEARCH_ONLY
@@ -87,4 +89,28 @@
 - 三本教材继续**共用同一locale历史域名**，通过路径区分。
 - 本次仅研究和决策：`RESEARCH_ONLY=YES`，`PROJECT_LAUNCH_AUTHORIZED=NO`，`DNS_MUTATION=NONE`，不修改go-dev。
 
+`NEXT=HIS_SOURCE_AND_MEDIA_LICENSED_SCOPE_FREEZE_RESEARCH`
+
+## 七、当前生效的项目域名标识：world-history（负责人后续决策）
+
+负责人明确选定第二项目`WORLD_HISTORY`，并进一步决定：
+
+- 项目标识 `PROJECT_DOMAIN_SLUG=world-history`，**不再使用**原来的 `history`。
+- 从 Go 的65个正式生产主机名逐项派生，只将主机名中的 `go-dev` 替换为 `world-history`，保留其余locale前缀及区域变体原样。例如：
+  - `go-dev.shuijingwanwq.com` → `world-history.shuijingwanwq.com`（zh-CN）；
+  - `ja-go-dev.shuijingwanwq.com` → `ja-world-history.shuijingwanwq.com`（ja-JP）；
+  - `de-go-dev.shuijingwanwq.com` → `de-world-history.shuijingwanwq.com`（de-DE）；
+  - `de-at-go-dev.shuijingwanwq.com` → `de-at-world-history.shuijingwanwq.com`（de-AT）；
+  - `es-419-go-dev.shuijingwanwq.com` → `es-419-world-history.shuijingwanwq.com`（es-419）。
+- 三本历史教材在同一语言对应子域名下共存，以路径区分；以后新增世界历史同源内容可按独立决策纳入该项目，其他历史专项不自动混入。
+- `en-US` 是跨项目66目标之一，Go无对应生产hostname；历史英语原版是否构成官方有效支持，另行研究，**不得伪造Go的en-US域名身份**。
+- 本文件此前 `zh-cn-history`、`de-de-history` 和 `*-history` 示例均属**被取代的历史建议**；最终域名清单以第七节规则和正式选题决策为准。
+- 当前仍是 `RESEARCH_ONLY`；未创建DNS记录，不修改go-dev，也未授权建站/翻译。
+
+`SECOND_PROJECT=WORLD_HISTORY`
+`FORMAL_PROJECT_SELECTED=YES`
+`PROJECT_DOMAIN_SLUG=world-history`
+`DOMAIN_LOCALE_NAMING=EXACT_GO_DEV_PRODUCTION_HOST_PREFIX`
+`PROJECT_LAUNCH_AUTHORIZED=NO`
+`DNS_MUTATION=NONE`
 `NEXT=HIS_SOURCE_AND_MEDIA_LICENSED_SCOPE_FREEZE_RESEARCH`
