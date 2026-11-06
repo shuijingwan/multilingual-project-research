@@ -7,6 +7,8 @@
 工作状态：RESEARCH_ONLY
 主项目：go-dev v2（优先级不变）
 
+**域名后续修订（2026-11-06）**：负责人明确选择项目域名标识 `world-history` 而不是 `history`；本报告所有规划主机名现已更新为该规则。项目选题与研究状态未变化。
+
 ## 一、明确的正式决定
 
 **SECOND_PROJECT=WORLD_HISTORY（HIS）**
@@ -45,7 +47,7 @@
 
 当前项目是否适合AdSense、实际自然搜索流量、RPM和长期广告净收益仍为 `UNKNOWN`，本决策并未把收益预测当作已证明事实。
 
-## 三、locale 及域名：与 go-dev 现有生产命名完全一致
+## 三、locale 及域名：与 go-dev 现有生产命名完全一致（项目名 world-history）
 
 负责人再次决定：
 
@@ -58,24 +60,24 @@
 - 该文件包含 **65 个正式 live locale 的production_hostname**，与独立研究仓库目标66 locale的额外`en-US`不同。
 - 跨项目目标66及顺序仍引用 `docs/LOCALE_ROADMAP.md`（源commit `a929f2bef34be37c6e1860021bd581f8ec54d094`，blob `0787dca237a443f2ef5c8aefd2c2a1d609c6cbb9`），及 `research/2026-11-03-target-locales-source-snapshot.md`，不得建立第二套独立locale authority。
 
-**域名构造偏好**：在对应 Go production hostname 中只将主机标签部分的 `go-dev` 替换为 `history`，保留原来全部 locale 前缀、拼写、大小写规范化与地域差异；这是一项**计划命名规则**，不是已经创建或解析的DNS记录。
+**域名构造正式决定（2026-11-06 后续修订）**：在对应 Go production hostname 中只将主机标签部分的 `go-dev` 替换为 `world-history`，保留原来全部 locale 前缀、拼写、大小写规范化与地域差异；这是一项**计划命名规则**，不是已经创建或解析的DNS记录。
 
 举例：
 | Canonical locale | 已存在 Go production hostname | 历史项目规划hostname |
 |---|---|---|
-| zh-CN | `go-dev.shuijingwanwq.com` | `history.shuijingwanwq.com` |
-| ja-JP | `ja-go-dev.shuijingwanwq.com` | `ja-history.shuijingwanwq.com` |
-| de-DE | `de-go-dev.shuijingwanwq.com` | `de-history.shuijingwanwq.com` |
-| fr-FR | `fr-go-dev.shuijingwanwq.com` | `fr-history.shuijingwanwq.com` |
-| de-AT | `de-at-go-dev.shuijingwanwq.com` | `de-at-history.shuijingwanwq.com` |
-| zh-TW | `zh-tw-go-dev.shuijingwanwq.com` | `zh-tw-history.shuijingwanwq.com` |
-| es-419 | `es-419-go-dev.shuijingwanwq.com` | `es-419-history.shuijingwanwq.com` |
-| en-GB | `en-gb-go-dev.shuijingwanwq.com` | `en-gb-history.shuijingwanwq.com`（是否需区域英文新译另审） |
-| ar | `ar-go-dev.shuijingwanwq.com` | `ar-history.shuijingwanwq.com` |
+| zh-CN | `go-dev.shuijingwanwq.com` | `world-history.shuijingwanwq.com` |
+| ja-JP | `ja-go-dev.shuijingwanwq.com` | `ja-world-history.shuijingwanwq.com` |
+| de-DE | `de-go-dev.shuijingwanwq.com` | `de-world-history.shuijingwanwq.com` |
+| fr-FR | `fr-go-dev.shuijingwanwq.com` | `fr-world-history.shuijingwanwq.com` |
+| de-AT | `de-at-go-dev.shuijingwanwq.com` | `de-at-world-history.shuijingwanwq.com` |
+| zh-TW | `zh-tw-go-dev.shuijingwanwq.com` | `zh-tw-world-history.shuijingwanwq.com` |
+| es-419 | `es-419-go-dev.shuijingwanwq.com` | `es-419-world-history.shuijingwanwq.com` |
+| en-GB | `en-gb-go-dev.shuijingwanwq.com` | `en-gb-world-history.shuijingwanwq.com`（是否需区域英文新译另审） |
+| ar | `ar-go-dev.shuijingwanwq.com` | `ar-world-history.shuijingwanwq.com` |
 
-**重要**：Canonical locale `ja-JP`、`de-DE` 等不应误生成 `ja-jp-history`、`de-de-history`。以 Go 的生产主机名为准，不是简单拼接完整 BCP47 locale。
+**重要**：Canonical locale `ja-JP`、`de-DE` 等不应误生成 `ja-jp-world-history`、`de-de-world-history`。以 Go 的生产主机名为准，不是简单拼接完整 BCP47 locale。`history` 不再是本项目域名标识。
 
-- Go 项目`zh-CN`实际不带`zh-cn-`前缀，历史项目当前命名偏好也对应无前缀`history`。不擅自另加`zh-cn-`。
+- Go 项目`zh-CN`实际不带`zh-cn-`前缀，世界历史项目对应无前缀的`world-history`。不擅自另加`zh-cn-`。
 - `en-US` 是66目标范围中特有的额外locale，**Go无对应生产hostname**。三本原始书主要为英文来源；`en-US`与其他英语区域是否视为已经被原始英文有效覆盖，需后续按项目原始语言内容范围确定。不能伪称Go已有en-US域名，不因该例外而改写65个生产locale映射。
 - 若未来 Go 生产 hostname authority 更新，正式建站前只读重新读取来源并检查差异；不得把本报告当成新的Go hostname registry。
 
@@ -122,6 +124,8 @@
 `PROJECT_LAUNCH_AUTHORIZED=NO`
 `ARCHITECTURE=PER_LOCALE_SUBDOMAIN`
 `DOMAIN_LOCALE_NAMING=EXACT_GO_DEV_PRODUCTION_HOST_PREFIX`
+`PROJECT_DOMAIN_SLUG=world-history`
+`DOMAIN_SUFFIX_REPLACEMENT=go-dev_TO_world-history`
 `GO_DEV_PRODUCTION_LOCALE_MAPPINGS=65`
 `EN_US_GO_DEV_PRODUCTION_IDENTITY=NONE`
 `THREE_HISTORY_BOOKS_SHARE_LOCALE_HOST=YES`
