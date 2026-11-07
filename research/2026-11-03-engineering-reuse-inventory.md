@@ -98,3 +98,40 @@ https://github.com/shuijingwan/go-tour-i18n
 不启动翻译、部署或新工程。
 
 来源 Git commit：`a929f2bef34be37c6e1860021bd581f8ec54d094`
+
+## 八、跨项目技术栈与辅助脚本语言选择原则（2026-11-07）
+
+**性质：未来独立项目的技术选型偏好，不是当前工程建设授权。** 本节补充原第七节“尚不决定具体实现架构”：原则可以先记录，具体工具、框架和重写范围仍须在正式实施前按成本验证决定。
+
+负责人于 2026-11-07 明确：编程语言教程的多语言项目，不宜无理由沿用 go-dev 的 Go 工具链作为通用默认。应**优先考虑该项目自身的原生技术生态和上游已采用的成熟构建工具**。Python 和 Shell 可以在所有项目中承担跨语言辅助工作。
+
+### 选择顺序
+
+1. **首先保留上游成熟构建/验证生态**：如果原始教程已经使用稳定的构建工具，优先评估是否沿用，而不是重新实现同等功能。
+2. **新建长期核心工具时，优先项目对应语言**：Go 项目优先考虑 Go；Rust 教程项目优先考虑 Rust 生态；Python 教程项目优先考虑 Python 生态。这里的“优先”不是强制，需结合实际构建方式、现成工具、授权、维护与人力成本。
+3. **跨项目辅助工具允许 Python 和 Shell**：Python 可用于研究、文件解析、HTML/XML/PDF/EPUB 提取、数据整理、自动化检查等；Shell 主要用于 SSH、Git、环境设置、短命令编排和日志重定向。不要用 Shell 长期承载复杂的业务规则。
+4. **非编程语言项目不预设核心语言**：世界历史、世界地理、统计数据网站等根据实际内容源、网站需求、可复用工程、开发与长期维护成本选择，不为了技术栈统一而指定 Go、Rust 或 Python。
+
+### 核心工具复用与隔离
+
+- 可复用 go-dev 的质量审核思路、术语规范、输入输出契约、SEO 经验及经过验证的处理方法；**不等于直接把 Go 专用 CLI 或全部 Go 源码移植/嵌入其他项目**。
+- 不为追求某种语言的“纯粹性”重写已经稳定、成本合理的 Python、Shell 或其他工具；若已有 Go 工具非常成熟，允许比较直接复用、封装、适配与原生语言重写的总成本，例外应记录依据。
+- 同一重要业务规则应有明确的权威实现；避免在 Go、Rust、Python 与 Shell 中各维护一套可能相互漂移的判定逻辑。
+- 不为了未来可能出现的共享需求，提前拆出跨项目公共框架、第二套翻译流水线或新的部署工程；只有项目实际需要并获准实施时才做技术选型。
+
+### Rust 示例与来源
+
+Rust 官方《The Rust Programming Language》仓库的 `README.md` 写明构建依赖 `mdBook`，而 mdBook 仓库说明其由 Rust 实现。这是优先使用现有原生工具链的**具体例子**，不能推广成“所有 Rust 网站都由 Rust 构建”。
+
+- https://github.com/rust-lang/book/blob/main/README.md
+- https://github.com/rust-lang/book/blob/main/book.toml
+- https://github.com/rust-lang/mdBook
+
+`CORE_TOOLING_PREFERENCE=NATIVE_PROJECT_ECOSYSTEM_FIRST`
+`UPSTREAM_BUILD_TOOLS=REUSE_WHEN_FIT`
+`PYTHON_AND_SHELL=CROSS_PROJECT_SUPPORT_ALLOWED`
+`GO_TOOLING_FOR_NON_GO_PROJECTS=NOT_AUTOMATIC`
+`WORLD_HISTORY_CORE_LANGUAGE=NOT_DECIDED`
+`GO_DEV_V2_MUTATION=NONE`
+`PROJECT_IMPLEMENTATION_AUTHORIZED=NO`
+`RESEARCH_ONLY=YES`
