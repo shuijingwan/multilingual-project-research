@@ -85,3 +85,16 @@ HIS-A的官方关联OpenALG/Manifold网页正文3章抽检通过；正式使用�
 `NEXT=HIS_C_OFFICIAL_EPUB_OR_XML_OPTIONAL_ACQUISITION`
 
 **后续最省力的一步**：负责人如想利用EPUB/XML减少网页转换工作，可使用Open Book Publishers官方Download入口手动取得格式并校验；这属于对已存在**官方PDF**的补充优化，而不是三书官方原著仍缺失。
+
+## 五、2026-11-07 补充：HIS-A 下载页及自动翻译界面
+
+2026-11-07 负责人提供 UNG Press 官方下载区截图，补充以下**来源级观察**（不改变本报告于2026-11-06的来源身份及当时格式取得状态）：
+
+- 官方下载区第一项是 *World History: Cultures, States, and Societies to 1500* 正文 PDF；第二项是 *Index World History to 1500*，注明由 Laurel Rush 编制，属于**配套索引 PDF，而非第二本独立历史教材**。
+- 截图中的语言下拉框标明 Google 翻译，页面顶部也显示 Google 自动翻译横幅。这是**按需网页机器翻译**的证据，不等于出版社已经提供或维护几十种独立、完整、可检索的教材译本；也不证明教材 PDF 全文被翻译。
+- 官方来源页：https://ung.edu/university-press/books/world-history-cultures-states-societies-to-1500.php
+
+`HIS_A_OFFICIAL_DOWNLOADS=MAIN_TEXT_PDF_PLUS_INDEX_PDF`
+`GOOGLE_TRANSLATE_ON_DEMAND=OBSERVED`
+`OFFICIAL_TRANSLATED_FULLTEXT_FROM_WIDGET=NOT_VERIFIED`
+`RESEARCH_ONLY=YES`
