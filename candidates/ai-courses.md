@@ -70,3 +70,19 @@
 `GO_DEV_V2_PRIORITY=UNCHANGED`  
 `IMPLEMENTATION_AUTHORIZED=NO`  
 `RESEARCH_ONLY=YES`
+
+
+## 七、2026-11-07 后续供给试点补充
+
+新增方向 **G：AI Security & Governance（AI 应用安全与治理）**。新增理由：OWASP GenAI LLM Top 10 2026 有权威专家来源、明确 CC BY-SA 4.0 商业改编许可、10 个风险类别，并有首 48 小时下载超过 10,000 次的公开关注信号；但独立网站的搜索流量、广告收益和官方翻译缺口仍未证明。
+
+本轮结论：
+- C 普通开发者 AI 应用入门：Microsoft Generative AI for Beginners 已有 21 课、50+ 翻译语言。五个 locale 的文件路径样本完整，但 RAG lesson 的 source hash 样本已 stale。泛化入门方向暂停深挖。
+- D AI Agent 入门：Microsoft AI Agents for Beginners 已有 18 课、50+ 翻译语言；Hugging Face Agents Course 有 7 个语言目录，部分译文路径不完整。泛化 Agent 入门暂停深挖，保留框架进阶和可靠性缺口。
+- MCP 作为 C/D 子主题已有 Microsoft MIT 课程及 50+ 语言，且协议更新较快；不视为低竞争空白。
+- E LLM Evaluation / Observability：Evidently、DeepLearning.AI、LangChain Academy 等已有完整课程；中文搜索也已出现 Hugging Face、DataCamp、MongoDB 等内容。保留继续研究，但必须先验证开放源质量与搜索需求。
+- G AI Security & Governance：OWASP 2026 LLM Top 10 的 CC BY-SA 4.0 授权明确，当前 canonical 仓库未见翻译目录；官方翻译 pipeline 已启动，但 registry 当前登记的是 Agentic Top 10，不是 LLM Top 10。是否存在其他 2026 译文仍 UNKNOWN。
+
+详细证据及文件级检查见：[AI 开发者课程多语言供给与增量价值试点 001](../research/2026-11-07-ai-developer-course-locale-supply-pilot-001.md)。
+
+当前不做 AI 项目选型；C/D 泛化课程暂停深挖，E/G 继续研究。搜索量、自然流量、RPM 和广告净收益均为 UNKNOWN。
