@@ -177,3 +177,37 @@ Shopify、DeepSeek和Ethereum的某些官方文档商业再分发许可仍 UNCLE
 `ALL_RETAINED_CANDIDATES_REASSESSMENT_REQUIRED=YES`
 
 `SECOND_PROJECT=NOT_DECIDED`
+
+
+## 十、2026-11-07 增量语言计数口径补充（负责人新解释）
+
+负责人强调：研究候选项目时，除了搜索潜力等商业因素，也要比较该项目能为**整个互联网**真正新增多少目标语言的可用内容。例如在其他条件一致的前提下，一个有50个有效新增locale的候选，相比只有40个有效新增locale的候选，**在多语言覆盖增量这一维度上更有价值**。
+
+**这不是把50或40直接视作用户数、流量、广告收入或最终商业排名**。使用这一指标时要求：
+
+1. 同样使用冻结的66个locale、同一明确的源内容/模块范围、相近的内容体量与质量标准；若不同项目教材章节规模相差很大，应在“语言 × 源内容范围”级别比较，不能只比locale标签。
+2. 真正的增量不是只看源网站是否显示该语言选项。必须分别核查：出版社官方**独立可访问的正文翻译**、社区**完整可用的同源译本**，以及官方是否仅提供Google Translate等**按需机器翻译界面**。
+3. **Google Translate的下拉语言列表不是已发布的人工译本，也不等于出版社托管了该语言的持久译文页面。** 没有独立目标语言全文和URL时，不计入`OFFICIAL_EFFECTIVE_FULL`；但读者已经可以临时机器翻译阅读，因此这是一个真实的替代性可及性信号，可记录为`MACHINE_TRANSLATION_ON_DEMAND`，不能完全忽略。
+4. 即使某个locale已有社区同源完整译本，也**不自动从未来翻译范围排除**（沿用本报告第九节正式规则），但这会减少项目对全互联网同源内容的净新增性；新站仍可能通过质量、时效、可访问性、完整学习路径或地区变体提供新的用户价值。
+5. `NOT_FOUND_IN_SAMPLE`永远不当作`VERIFIED_ABSENT`；对全部互联网的不存在性通常无法穷尽证实。因此用于50与40的计数应给出明确的审计样本、证据等级、未核实数量和可比范围，而不是生成“已有50个确定空白”的伪精确结论。
+6. 将指标分开：`SOURCE_EQUIVALENT_NET_NEW_COVERAGE`（同源内容有效新增）、`USER_TASK_ADDED_VALUE`（相对已有同主题资料真正改善的阅读/学习任务）、`COMMERCIAL_ATTAINABILITY`（可获取流量和长期净收益）及`MAINTENANCE_BURDEN`（维护负担）。覆盖增量高并不自动等于长期广告净收益高。
+
+### 具体案例：UNG出版社的两项PDF下载及Google网页翻译
+
+2026-11-07查看官方页面：https://ung.edu/university-press/books/world-history-cultures-states-societies-to-1500.php 。
+
+- 官方下载区的第一项是`World History: Cultures, States, and Societies to 1500`正文PDF；第二项是`Index World History to 1500`索引PDF，注明`Index prepared by Laurel Rush`，**并非另一部独立历史教材**。
+- 负责人浏览器截图显示Google Translate多语言选择界面（上方“已翻译为以下语言”、底部Google翻译标识）。该证据**支持**用户所见文字由Google翻译功能展示，不足以证明出版方服务器维护几十种独立、人工审核且可索引的译文。也未逐项核实截图中的每一种语言是否会生成独立网页。
+- Google的多语言网站SEO指南建议不同语言正文使用不同URL；仅在页面上动态改变语言不等于每个语言都拥有可独立抓取的正文页。
+
+Google指南：https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites
+Google按需翻译页面说明：https://developers.google.com/search/docs/appearance/translated-results
+
+`OFFICIAL_PDF_BODY_COUNT=1`
+`OFFICIAL_PDF_INDEX_COUNT=1`
+`GOOGLE_TRANSLATE_WIDGET_IS_OFFICIAL_LOCALIZED_FULLTEXT=NO`
+`MACHINE_TRANSLATION_ON_DEMAND=VISIBLE_IN_USER_SCREENSHOT`
+`EFFECTIVE_INTERNET_INCREMENTAL_LOCALES=UNKNOWN`
+`COMPARISON_50_VS_40=GREATER_COVERAGE_ONLY_IF_COMPARABLE_AND_EVIDENCED`
+`SECOND_PROJECT=WORLD_HISTORY`
+`RESEARCH_ONLY=YES`
