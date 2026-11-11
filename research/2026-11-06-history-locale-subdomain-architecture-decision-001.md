@@ -114,3 +114,19 @@
 `PROJECT_LAUNCH_AUTHORIZED=NO`
 `DNS_MUTATION=NONE`
 `NEXT=HIS_SOURCE_AND_MEDIA_LICENSED_SCOPE_FREEZE_RESEARCH`
+
+## 八、独立品牌与根域名成本约束（2026-11-11 补充研究决策）
+
+本节补充品牌及部署边界，不替代第七节已确定的项目标识、正式生产 locale 主机名前缀映射，也不批准实施。
+
+- `BRAND_IDENTITY=INDEPENDENT`：世界历史与现有科技内容保持独立的项目品牌、首页、导航、站点地图、内容定位和搜索表现监测；不作为个人科技博客下的普通栏目。
+- `CURRENT_ROOT_DOMAIN_PREFERENCE=REUSE_SHUIJINGWANWQ_COM`：当前优先沿用 `shuijingwanwq.com` 根域名下的每语言子域名，不因争取额外 Cloudflare DNS 配额而购买新域名、增加续费或启动新备案。
+- `EXACT_HOSTNAME_MAPPING=UNCHANGED`：示例为 zh-CN 的 `world-history.shuijingwanwq.com`、ja-JP 的 `ja-world-history.shuijingwanwq.com`；不得擅自改为 `zh-cn-world-history` 或使用被取代的 `*-history` 命名。en-US 保留第七节的待决边界。
+- `SEO_SEPARATION_ASSUMPTION=NOT_PROVEN`：科技与历史内容共用根域名不等于必然产生负面排名影响；独立子域名也不意味着搜索系统中绝对隔离。不得把任何 SEO 优势或风险写成已验证的流量结论。
+- `SEPARATE_ROOT_DOMAIN=FUTURE_REASSESSMENT_ONLY`：未来如有充足的项目流量、收益与品牌证据，可结合迁移风险、域名成本及备案要求重新研究独立根域名；当前不批准购买、注册、迁移、备案或付款。
+- `ROOT_DOMAIN_DEPLOYMENT_FINAL_FREEZE=NO`：上述为当前成本优先的部署偏好，不是不可更改的永久根域名决策；如未来部署，应另行核对 DNS 配额、HTTPS、服务接入、备案信息及适用要求。
+- `CLOUDFLARE_PLAN=FREE_FOR_NOW`；`DNS_MUTATION=NONE`；`WORLD_HISTORY_IMPLEMENTATION=NOT_AUTHORIZED`；`RESEARCH_ONLY=YES`。
+- 原 66 locale 目标范围、已确定的命名规则、Source/Candidate/Accepted 等独立研究约束及当前正式研究下一步均不变。
+
+`BRAND_AND_ROOT_DOMAIN_RESEARCH_DECISION=RECORDED`
+`NEXT=HIS_THREE_BOOK_TRANSLATION_SOURCE_READINESS_REVIEW`
