@@ -22,9 +22,12 @@ RESEARCH_ONLY=YES
 
 默认使用简短文字占位，并按以下顺序选择链接：
 
-1. 可合法公开访问且稳定的原始图片文件 URL。
-2. 能直接定位该图片的独立作品详情页 URL。
-3. 无上述链接时，仅保留文字说明，不提供误导性链接。
+1. 优先使用经过核实、可公开访问的原始图片文件 URL。
+2. 允许使用直接重定向到原始图片文件的 URL。
+3. 不接受图片详情页、图集页面或教材页面作为替代。
+4. 找不到合适的直接图片链接时，仅显示文字占位。
+
+不得绕过访问控制、付费限制或来源网站的访问规则。
 
 不得使用教材首页、网站首页或搜索结果页
 冒充原图链接。
@@ -55,7 +58,7 @@ RESEARCH_ONLY=YES
 - display_mode
 - title
 - exact_media_url（可为空）
-- exact_asset_page_url（可为空）
+
 - attribution（可为空）
 - license_reference（可为空）
 
@@ -63,7 +66,6 @@ display_mode：
 
 LICENSED_IMAGE
 EXACT_MEDIA_LINK
-EXACT_ASSET_PAGE_LINK
 TEXT_NOTE
 OMIT
 HOLD_REVIEW
